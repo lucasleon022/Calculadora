@@ -28,3 +28,10 @@ while eleccion != 6:
     if eleccion == 1:
         print(" ")
         print("resultado: ", number, "+", numberr, "=", number+numberr)
+
+    if eleccion == 2:
+        print(" ")
+        print("resultado: ", number, "-", numberr, "=", number-numberr)
+
+    if eleccion == 3:
+        
