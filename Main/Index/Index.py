@@ -18,7 +18,7 @@ while eleccion != 6:
     1) suma
     2) resta
     3) multiplicacion
-    4) divicion
+    4) division
     5) cambio de valores
     6) salir
     """)
@@ -34,4 +34,11 @@ while eleccion != 6:
         print("resultado: ", number, "-", numberr, "=", number-numberr)
 
     if eleccion == 3:
-        
+        print(" ")
+        print("resultado: ", number, "*", numberr, "=", number*numberr)
+
+    if eleccion == 4:
+        print(" ")
+        print("resultado: ", number, "/", numberr, "=", number/numberr)
+
+    
