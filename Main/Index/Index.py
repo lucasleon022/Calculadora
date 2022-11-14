@@ -7,8 +7,8 @@
 # Developer: Lucas Leon
 ###########################################
 
-number = int(input("Ingresa un numero"))
-numberr = int(input("Ingresa otro numero"))
+numero = int(input("Ingresa un numero"))
+numeroo = int(input("Ingresa otro numero"))
 
 eleccion = 0
 
@@ -27,23 +27,23 @@ while eleccion != 6:
 
     if eleccion == 1:
         print(" ")
-        print("Resultado: ", number, "+", numberr, "=", number+numberr)
+        print("Resultado: ", numero, "+", numeroo, "=", numero+numeroo)
 
     if eleccion == 2:
         print(" ")
-        print("Resultado: ", number, "-", numberr, "=", number-numberr)
+        print("Resultado: ", numero, "-", numeroo, "=", numero-numeroo)
 
     if eleccion == 3:
         print(" ")
-        print("Resultado: ", number, "*", numberr, "=", number*numberr)
+        print("Resultado: ", numero, "*", numeroo, "=", numero*numeroo)
 
     if eleccion == 4:
         print(" ")
-        print("Resultado: ", number, "/", numberr, "=", number/numberr)
+        print("Resultado: ", numero, "/", numeroo, "=", numero/numeroo)
 
     if eleccion == 5:
-        number = int(input("Ingresa un numero"))
-        numberr = int(input("Ingresa otro numero"))
+        numero = int(input("Ingresa un numero"))
+        numeroo = int(input("Ingresa otro numero"))
 
     if eleccion == 6:
         print("Gracias por usar la calculadora. Creada por: Lucas Leon")
