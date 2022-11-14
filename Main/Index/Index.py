@@ -7,8 +7,8 @@
 # Developer: Lucas Leon
 ###########################################
 
-numero = int(input("Ingresa un numero"))
-numeroo = int(input("Ingresa otro numero"))
+numero = float(input("Ingresa un numero"))
+numeroo = float(input("Ingresa otro numero"))
 
 eleccion = 0
 
@@ -23,7 +23,7 @@ while eleccion != 6:
     6) Salir
     """)
 
-    eleccion = int(input())
+    eleccion = float(input())
 
     if eleccion == 1:
         print(" ")
@@ -42,8 +42,8 @@ while eleccion != 6:
         print("Resultado: ", numero, "/", numeroo, "=", numero/numeroo)
 
     if eleccion == 5:
-        numero = int(input("Ingresa un numero"))
-        numeroo = int(input("Ingresa otro numero"))
+        numero = float(input("Ingresa un numero"))
+        numeroo = float(input("Ingresa otro numero"))
 
     if eleccion == 6:
         print("Gracias por usar la calculadora. Creada por: Lucas Leon")
