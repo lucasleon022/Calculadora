@@ -7,8 +7,6 @@
 # Developer: Lucas Leon
 ###########################################
 
-import math 
-
 numero = float(input("Ingresa un numero"))
 numeroo = float(input("Ingresa otro numero"))
 
