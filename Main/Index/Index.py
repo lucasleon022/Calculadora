@@ -7,12 +7,14 @@
 # Developer: Lucas Leon
 ###########################################
 
+import math 
+
 numero = float(input("Ingresa un numero"))
 numeroo = float(input("Ingresa otro numero"))
 
 eleccion = 0
 
-while eleccion != 6:
+while eleccion != 7:
     print("""
     Indique la operacion a realizar:
     1) Suma
@@ -20,7 +22,8 @@ while eleccion != 6:
     3) Multiplicacion
     4) Division
     5) Cambio de valores
-    6) Salir
+    6) Seguir calculando
+    7) Salir
     """)
 
     eleccion = float(input())
@@ -28,22 +31,31 @@ while eleccion != 6:
     if eleccion == 1:
         print(" ")
         print("Resultado: ", numero, "+", numeroo, "=", numero+numeroo)
+        resultado = numero+numeroo
 
     if eleccion == 2:
         print(" ")
         print("Resultado: ", numero, "-", numeroo, "=", numero-numeroo)
+        resultado = numero-numeroo
 
     if eleccion == 3:
         print(" ")
         print("Resultado: ", numero, "*", numeroo, "=", numero*numeroo)
+        resultado = numero*numeroo
 
     if eleccion == 4:
         print(" ")
         print("Resultado: ", numero, "/", numeroo, "=", numero/numeroo)
+        resultado = numero/numeroo
 
     if eleccion == 5:
         numero = float(input("Ingresa un numero"))
         numeroo = float(input("Ingresa otro numero"))
 
     if eleccion == 6:
-        print("Gracias por usar la calculadora. Creada por: Lucas Leon")
+        numero = resultado
+        print(numero)
+        numeroo = float(input("Ingrese nuevo valor"))
+
+    if eleccion == 7:
+        print("Gracias por usar la calculadora. Creada por: Lucas Leon")    
